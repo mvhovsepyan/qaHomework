@@ -111,7 +111,4 @@ public class AutomationAcademyPage {
 
         return values;
     }
-
-
-
 }

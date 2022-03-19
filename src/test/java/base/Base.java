@@ -26,11 +26,6 @@ public class Base {
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
-        //   driver.get(Url);
-    }
 
-//    @AfterClass
-//    public void tearDown() {
-//        driver.quit();
-//    }
+    }
 }
